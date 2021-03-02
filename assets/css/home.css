@@ -481,7 +481,7 @@ a:hover {
 
 @media only screen and (max-width:580px){
   .text{
-    margin-top:4rem;
+    margin-top:6rem;
   }
 }
 
@@ -532,7 +532,7 @@ a:hover {
 
 @media only screen and (min-height:768px){
   .text{
-    margin-top: -4rem;
+    margin-top: 0rem;
   }
 }
 
