@@ -92,7 +92,7 @@ html[data-theme="dark"] {
 
 body {
   height: 100vh;
-  margin: 0;
+  margin-top: auto;
   overflow-x: hidden;
   color: var(--text);
   font-family: "Poppins", sans-serif;
