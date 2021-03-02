@@ -559,3 +559,10 @@ a:hover {
     margin-top: 1rem;
   }
 }
+
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}

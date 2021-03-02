@@ -10,7 +10,7 @@ particlesJS('particles-js', {
 			}
 		},
 		color: {
-			value: [ '#2EB67D', '#ECB22E', '#E01E5B', '#36C5F0' ]
+			value: [ '#2c4047' ]
 		},
 		shape: {
 			type: 'circle',
@@ -20,17 +20,12 @@ particlesJS('particles-js', {
 			},
 			polygon: {
 				nb_sides: 5
-			},
-			image: {
-				src: 'https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png',
-				width: 100,
-				height: 100
 			}
 		},
 		
 		opacity: {
 			value: 1,
-			random: false,
+			random: true,
 			anim: {
 				enable: false,
 				speed: 1,
@@ -39,8 +34,8 @@ particlesJS('particles-js', {
 			}
 		},
 		size: {
-			value: 8,
-			random: true,
+			value: 2,
+			random: false,
 			anim: {
 				enable: false,
 				speed: 10,
@@ -51,14 +46,14 @@ particlesJS('particles-js', {
 		line_linked: {
 			enable: true,
 			distance: 150,
-			color: '#808080',
+			color: '#2c4047',
 			opacity: 0.4,
 			width: 1
 		},
 		move: {
 			enable: true,
-			speed: 5,
-			direction: 'none',
+			speed: 0.25,
+			direction: 'left',
 			random: false,
 			straight: false,
 			out_mode: 'out',
@@ -85,7 +80,7 @@ particlesJS('particles-js', {
 		modes: {
 			'repulse' : {
 				distance: 70,
-				duration: 0.4
+				duration: 1
 			},
 			'push' : {
 				particles_nb: 4
@@ -140,10 +135,10 @@ if (allElements.length > 0) {
 					if (count === spans.length) {
 						clearInterval(letterInterval);
 
-						// It waits 4 seconds to start erasing the word
+						// It waits 8 seconds to start erasing the word
 						setTimeout(() => {
 							eraseText();
-						}, 600);
+						}, 6000);
 					}
 				}
 

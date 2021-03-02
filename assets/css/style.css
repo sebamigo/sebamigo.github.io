@@ -200,7 +200,7 @@ html {
 }
 
 .navbar-brand{
-  font-family: "Avenir Next";
+    font-family: "Avenir Next", serif;
   font-size: 30px;
   font-weight: normal;
 }
