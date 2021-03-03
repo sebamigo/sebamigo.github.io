@@ -70,17 +70,23 @@ particlesJS('particles-js', {
 		events: {
 			onhover: {
 				enable: true,
-				mode: 'repulse'
+				mode: 'bubble'
 			},
 			onclick: {
 				enable: true,
-				mode: 'push'
+				mode: 'repulse'
 			}
 		},
 		modes: {
 			'repulse' : {
-				distance: 70,
+				distance: 200,
 				duration: 1
+			},
+			'bubble' : {
+				distance: 400,
+				size: 4,
+				opacity: 1,
+				duration: 0.3
 			},
 			'push' : {
 				particles_nb: 4

@@ -199,15 +199,24 @@ html {
   transform: rotate(-45deg) translate(-0.167em, 0.083em);
 }
 
+.navbar-header {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
 .navbar-brand{
     font-family: "Avenir Next", serif;
-  font-size: 30px;
-  font-weight: normal;
+    font-size: 30px;
+    font-weight: normal;
+    float:left;
 }
 .navbar{
   color:#000000;
-  background-color: #7b2a39;
+    background-image: linear-gradient(45deg, #7b2a39 0%, #962a3b 100%);
+
 }
+
 
 /*
 -------------------------------------
