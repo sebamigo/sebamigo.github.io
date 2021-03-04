@@ -381,19 +381,17 @@ html {
 */
 
 .footer{
-  padding-top: 10px;
-  background-color:#040406;
+  padding-top: 40px;
+  background-color: #141d21;
 }
 
 .tag{
   font-family:"Open Sans", sans-serif;
-  font: size 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
-  height: 78px;
   width: 300px;
-  margin: 5px auto;
+  margin: 10px auto;
   display: block;
   box-sizing: border-box;
 }

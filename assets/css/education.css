@@ -52,12 +52,12 @@ html[data-theme = 'dark']
 }
 .s2 .card img
 {
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
 }
 .s2 .card, .s2 img
 {
-    border-radius: 3rem;
+    border-radius: 0rem;
 }
 
 .s2 h4,h6,p{
@@ -203,8 +203,12 @@ html[data-theme = 'dark']
 #leaf12
 {
     -webkit-animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	        animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-            transform-box: fill-box;
+    animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    transform-box: fill-box;
+}
+#apple
+{
+
 }
 
 #leaf13

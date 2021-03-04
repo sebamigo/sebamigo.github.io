@@ -16,7 +16,7 @@ let header = $(`
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="education.html">Bildungsweg</a></li>
+    <li class="nav-item"><a class="nav-link" href="bildungsweg.html">Bildungsweg</a></li>
     <li class="nav-item"><a class="nav-link" href="experience.html">Erfahrung</a></li>
     <li class="nav-item"><a class="nav-link" href="research.html">Fähigkeiten und Kompetenzen</a></li>
     <li class="nav-item"><a class="nav-link" href="projects.html">Weitere Interessen</a></li>
@@ -27,17 +27,17 @@ let header = $(`
 
 let footer = $(`
 <footer class="footer" xmlns="http://www.w3.org/1999/html">
-  <div class="container p-4">
+  <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
         <p class="tag" style="text-align: left"><b>Sebastian Paul Arndt</b><br>12683 Berlin <br>sebastian.arndt6597@gmail.com
         </p>
       </div>
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="float: right">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           
             
-<pre style="color:#d1d1d1;">public <span style="color:#e66170; font-weight:bold; ">static</span> <span style="color:#e66170; font-weight:bold; ">String</span> atEnd<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#b060b0; ">{</span>
+<pre class="tag" style="color:#d1d1d1; text-align: left">public <span style="color:#e66170; font-weight:bold; ">static</span> <span style="color:#e66170; font-weight:bold; ">String</span> atEnd<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#b060b0; ">{</span>
  StringBuilder result <span style="color:#d2cd86; ">=</span> new StringBuilder<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
  result<span style="color:#d2cd86; ">.</span>append<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Have a </span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
  <span style="color:#e66170; font-weight:bold; ">for</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">int</span> c <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">0</span><span style="color:#b060b0; ">;</span> c <span style="color:#d2cd86; ">&lt;</span> <span style="color:#008c00; ">10</span><span style="color:#b060b0; ">;</span> c<span style="color:#d2cd86; ">+</span><span style="color:#d2cd86; ">+</span><span style="color:#d2cd86; ">)</span>
