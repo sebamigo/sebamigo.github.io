@@ -63,6 +63,7 @@ html[data-theme="dark"] {
   --col-icon-leetcode:rgb(255, 181, 62);
   --col-white: #fff;
 }
+
 /*
 ---------------------------
         SCROLLBAR
@@ -795,3 +796,11 @@ form{
       transform: translateY(25%);
    }
   }
+
+
+.scrolldownbutton {
+    width: 100%;
+    height: 5rem;
+    margin-top: -1rem;
+    outline-width: 0;
+}

@@ -566,10 +566,3 @@ a:hover {
     position: absolute;
     top: 50%;
 }
-
-.scrolldownbutton {
-    width: 100%;
-    height: 5rem;
-    margin-top: -1rem;
-    outline-width: 0;
-}
