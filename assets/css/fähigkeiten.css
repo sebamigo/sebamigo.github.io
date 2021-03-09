@@ -1,0 +1,114 @@
+.skill-bars{
+    padding: 25px 30px;
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.skill-bars .bar{
+    margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+    margin-top: 0px;
+}
+.skill-bars .bar .info{
+    margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 1;
+}
+.progress-line{
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform-origin: left;
+    transform: scaleX(0);
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+    0 1px rgba(255,255,255,0.8);
+}
+
+.progress-line-progress{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: left;
+    transform: scaleX(0);
+    background: #45879f;
+}
+
+.progress-line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 1;
+}
+.progress-line span::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.progress-line.hundert span::after{
+    content: "100%";
+}
+.progress-line.achtzig span::after{
+    content: "80%";
+}
+.progress-line.sechszig span::after {
+    content: "60%";
+}
+.progress-line.vierzig span::after {
+    content: "40%";
+}
+
+
+.bar .progress-line.hundert span{
+    width: 100%;
+}
+.bar .progress-line.achtzig span{
+    width: 80%;
+}
+.bar .progress-line.sechszig span{
+    width: 60%;
+}
+.bar .progress-line.vierzig span{
+    width: 40%;
+}
+
+.skillcard > * {
+    text-align: left!important;
+}
+
+.sprache_skill {
+    font-size: 14px;
+    color: #7B2A39;
+}
+
+
+[data-aos="progressbar-animation"].aos-animate {
+    transform: scaleX(1);
+}
+[data-aos="progressbar-animation-fullscore"].aos-animate {
+    transform: scaleX(1);
+    background: #7b2a39;
+}

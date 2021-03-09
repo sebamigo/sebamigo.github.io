@@ -18,8 +18,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
     <li class="nav-item"><a class="nav-link" href="bildungsweg.html">Bildungsweg</a></li>
     <li class="nav-item"><a class="nav-link" href="erfahrung.html">Erfahrung</a></li>
-    <li class="nav-item"><a class="nav-link" href="research.html">Fähigkeiten und Kompetenzen</a></li>
-    <li class="nav-item"><a class="nav-link" href="projects.html">Weitere Interessen</a></li>
+    <li class="nav-item"><a class="nav-link" href="faehigkeiten.html">Fähigkeiten und Kompetenzen</a></li>
   </ul>
 </div>
 </div>
